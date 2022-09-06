@@ -17,3 +17,15 @@ def check_chol(num_chol):
         return "borderline high"
     else:
         return "normal"
+    
+def chol_driver():
+    chol_value = input_chol()
+    answer = check_chol(chol_value)
+    output_chol(chol_value,answer)
+    
+    
+def output_chol(chol_value,charac):
+    print("The results for an LDL value of {} is {}".format(chol_value,charac))
+
+
+chol_driver()
