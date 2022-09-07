@@ -5,6 +5,9 @@ Created on Mon Sep  5 12:28:10 2022
 
 @author: jisellehavas
 """
+print("This is the database.py module")
+print("Python thinks this is called {}".format(__name__))
+
 
 def interface():
     print("Blood Calculator")
@@ -41,5 +44,5 @@ def output_HDL(HDL_value,charac):
     print("The results for an HDL value of {} is {}".format(HDL_value,charac))
     
 
-
-interface()
+if __name == "__main__"
+    interface()
