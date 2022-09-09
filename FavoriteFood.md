@@ -7,3 +7,7 @@
 5. Banana
 
 Ice cream is my favorite food because there are so many great flavor options. There is also always room for ice cream even if you are full from a meal.
+
+##Least Favorite Foods
+
+My least favorite food is any spicy food.
