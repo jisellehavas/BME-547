@@ -44,5 +44,5 @@ def output_HDL(HDL_value,charac):
     print("The results for an HDL value of {} is {}".format(HDL_value,charac))
     
 
-if __name == "__main__"
+if __name__=="__main__":
     interface()
