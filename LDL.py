@@ -30,5 +30,5 @@ def output_LDL(LDL_value,charac):
     print("The results for an LDL value of {} is {}".format(LDL_value,charac))
     
 
-
-LDL_driver()
+if __name__=="__main__":
+    LDL_driver()
