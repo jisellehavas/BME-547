@@ -40,13 +40,13 @@ def check_HDL(num_HDL):
 def HDL_driver():
     HDL_value = input_HDL()
     answer = check_HDL(HDL_value)
-    output_HDL(HDL_value,answer)
+    output_HDL(HDL_value, answer)
 
 
-def output_HDL(HDL_value,charac):
+def output_HDL(HDL_value, charac):
     print("The results for an HDL value of {} is {}"
-          .format(HDL_value,charac))
+          .format(HDL_value, charac))
     
 
-if __name__=="__main__":
+if __name__ == "__main__":
     interface()
