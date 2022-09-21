@@ -8,12 +8,12 @@ def input_weight_entry():
 
 def parse_weight_input(weight_input):
     number_of_spaces = weight_input.count(" ")
-    if number_of_spaces != 1: #not equal to 1
+    if number_of_spaces != 1:  # not equal to 1
         return None
     weight, units = weight_input.split(' ')
     weight = float(weight)
-    units = units.lower()   #makes anything lowercase
-    if units in ["lb","pounds"]:
+    units = units.lower()   # makes anything lowercase
+    if units in ["lb", "pounds"]:
         weight_kg = convert_lb_to_kg(weight)
     else:
         weight_kg = weight
