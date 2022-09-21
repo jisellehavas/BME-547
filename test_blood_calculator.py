@@ -1,15 +1,13 @@
 import pytest
 
 
-@pytest.mark.parametrize("x,expected",[(80,"Normal"),(50,"Borderline Low"),(20,"Low")])
+@pytest.mark.parametrize("x, expected", [(80, "Normal"), (50, "Borderline Low"),
+                         (20,"Low")])
 
-def test_check_HDL(x,expected):
+def test_check_HDL(x, expected):
     from blood_calculator import check_HDL
     answer = check_HDL(x)
     assert answer == expected
-
-
-
 
 
 """
