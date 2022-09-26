@@ -17,7 +17,8 @@ class Patient:
             return "minor"
 
 
-def create_patient_entry(patient_first_name, patient_last_name, patient_id, patient_age):
+def create_patient_entry(patient_first_name, patient_last_name, 
+                         patient_id, patient_age):
     new_patient = Patient()
     new_patient.first_name = patient_first_name
     new_patient.last_name = patient_last_name
