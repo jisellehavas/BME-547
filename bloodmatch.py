@@ -10,6 +10,7 @@ def get_info():
     s = requests.get("http://vcm-7631.vm.duke.edu:5002/get_blood_type/F1")
     return r.text, q.text, s.text
 
+
 def check_blood_type(q, s):
     if s == "O-":
         if q == "O-":
